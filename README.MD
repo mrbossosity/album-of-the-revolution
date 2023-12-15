@@ -4,7 +4,7 @@
 *Governor Faubus!*
 Why is he so sick and ridiculous?
 *He won't permit us in his schools!*
-Then he's a fool!Oh, boo!”
+Then he's a fool! Oh, boo!”
 
 The lyrics to Charles Mingus’s 1959 tune “Fables of Faubus” never aired because Columbia Records refused to publish the song in its original form. Mingus recorded the piece again in 1960 with an independent label to make his scathing, satirical critique of the Ku Klux Klan and the Little Rock integration crisis heard.
 
