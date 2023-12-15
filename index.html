@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Quantico&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Album of the Revolution</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="tracks.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="top-container">Album of the Revolution</div>
+        <div class="mid-container">
+            <img src="/assets/img/freedom-summer.jpg" alt="" class="mid-background">
+            <div class="mid-left">
+                <div class="turntable">
+                    <div class="deck">
+                        <div class="deck-left">
+                            <div class="vinyl" id="vinyl">
+                                <div class="inner-vinyl">
+                                    <div class="inner-inner-vinyl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="deck-right">
+                            <div class="deck-screen">
+                                <div class="deck-screen-text">ALBUM OF THE REVOLUTION</div>
+                            </div>
+                            <div class="deck-volume">
+                                <input type="range" name="deck-volume" id="deck-volume" min="0" max="1" step="0.1" value="0.8">
+                            </div>
+                            <div class="deck-buttons">
+                                <div>
+                                    <button id="deck-play">&#9658;</button>
+                                </div>
+                                <div>
+                                    <button id="deck-pause">&#9616;&nbsp;&#9612;</button>
+                                </div>
+                                <div>
+                                    <button id="deck-prev">&#x23f4;</button>
+                                </div>
+                                <div>
+                                    <button id="deck-next">&#x23f5;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-right">
+                <div class="album">
+                    <img src="assets/img/newton-seale.png" class="album-cover" id="album-cover">
+                    <div class="album-title" id="album-title">Album of the Revolution: Black Protest Music 1965-2014</div>
+                    <div class="album-article"></div>
+                    <div class="album-bib"></div>
+                </div>
+                <dialog id="article-dialog">
+                    <div class="article-dialog-title"></div>
+                    <img src="assets/img/newton-seale.png" class="article-dialog-img">
+                    <div class="article-dialog-text"></div>
+                    <div class="article-dialog-bib"></div>
+                    <button id="article-dialog-close" class="dialog-close-btn">Close</button>
+                </dialog>
+            </div>
+        </div>
+        <div class="bottom-container">
+            Designed by Sage Kanemaru '24. HIS 443: Black Worldmaking, Fall 2023. <a id="bib-btn" href="#">Bibliography</a>
+        </div>
+        <dialog id="bib-dialog">
+            <div class="bib-dialog-title">Bibliography</div>
+            <div class="bib-dialog-text">
+                <p>Brown, Matthew P. “Funk music as genre: Black aesthetics, apocalyptic thinking and urban protest in post-1965 African-American pop.” <i>Cultural Studies 8</i>, no. 3 (1994): 484-508.</p>
+                <p>Coleman, Jeffrey Lamar. “Singing is Swinging: The Soul Force of Twentieth-Century Black Protest Music.” In <i>The Black Intellectual Tradition: African American Thought in the Twentieth Century</i>, edited by Derrick P. Alridge, Cornelius L. Bynum, and James B. Stewart. 65–79. University of Illinois Press, 2021. http://www.jstor.org/stable/10.5406/j.ctv1v090qz.8.</p> 
+                <p>Ford, Tanisha C. <i>Liberated Threads: Black Women, Style, and the Global Politics of Soul.</i> University of North Carolina Press, 2015. http://www.jstor.org/stable/10.5149/9781469625164_ford.</p> 
+                <p>Fuchs, Cynthia J. “‘I wanna be your fantasy’: Sex, death, and the artist formerly known as Prince.” <i>Women & Performance</i> 8, no. 2 (1996): 137-51.</p> 
+                <p>Library of Congress. <i>African American Song</i>. https://www.loc.gov/item/ihas.200197451/.</p> 
+                <p>Marovich, Robert M. <i>A City Called Heaven: Chicago and the Birth of Gospel Music</i>, University of Illinois Press, 2015. http://www.jstor.org/stable/10.5406/j.ctt13x1kq3.18.</p> 
+                <p>Matlack, Tom. “Tom Morello: One Man Revolution.” Huffington Post. August 28, 2009, updated December 6, 2017. https://www.huffpost.com/entry/tom-morello-one-man-revol_b_245035.</p> 
+                <p>Morant, Kesha M. “Language in Action: Funk Music as the Critical Voice of a Post-Civil Rights Movement Counterculture.” <i>Journal of Black Studies</i> 42, no. 1 (2011): 71-82.</p> 
+                <p>Newman, Melinda. “Inside Prince’s Career-Long Battle to Master His Artistic Destiny.” Billboard. April 28, 2016. https://www.billboard.com/music/features/prince-battle-to-control-career-artist-rights-7348551/.</p> 
+                <p>Sanger, Kerran L. “Functions of freedom singing in the civil rights movement: The activists’ implicit rhetorical theory.” <i>Howard Journal of Communications</i> 8, no. 2 (1997): 179-95.</p>
+                <p>Stacey, Richard. “A brief guide to the many styles of hip-hop.” Red Bull. April 4, 2019. https://www.redbull.com/int-en/different-types-of-hip-hop-guide.</p> <p>Viator, Felicia Angeja. “Without a Gun and a Badge.” In <i>To Live and Defy in LA: How Gangsta Rap Changed America</i>, 208–55. Harvard University Press, 2020. http://www.jstor.org/stable/j.ctv253f85b.9.</p></div>
+            <button id="bib-dialog-close" class="dialog-close-btn">Close</button>
+        </dialog>
+        <audio src="" id="track-audio"></audio>
+    </div>
+</body>
+</html>
