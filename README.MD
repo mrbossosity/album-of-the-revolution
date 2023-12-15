@@ -21,5 +21,6 @@ The same rhetorical analysis could apply to Black protest music as a whole. Prot
 In this digital exhibit, I have curated six Black protest songs accompanied by short essays on. Each song represents a different diasporic genre (soul-jazz, gospel, rap, R&B, and rock) and responds to a distinct political moment from the last 60 years. Two are particularly famous protest tracks (“Mississippi Goddam” and “Fuck Tha Police”), but the rest are lesser-known songs from influential artist-activists. Each piece of commentary will pose a guiding question and synthesize relevant scholarship with lyrical and musical analysis to understand each artist's relationship with the industry and the organizing traditions with which they align themselves. It is my hope that this project will shed some light on the sonic dimensions of Black worldmaking — past, present, and future.
 
 ## Honor Code
-This represents my own work in accordance with University regulations.
-Sage Kanemaru
+*This represents my own work in accordance with University regulations.*
+
+*/s/*Sage Kanemaru
