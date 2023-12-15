@@ -23,4 +23,4 @@ In this digital exhibit, I have curated six Black protest songs accompanied by s
 ## Honor Code
 *This represents my own work in accordance with University regulations.*
 
-*/s/*Sage Kanemaru
+Sage Kanemaru
